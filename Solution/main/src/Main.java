@@ -11,8 +11,8 @@ public class Main {
 
     int[] positions = new int[]{0, 6, 7, 11};
 
-    String name = Love.findLoveName(phrases, positions);
-    System.out.println(name);
+    Love.findLoveName(phrases, positions);
+
   }
 
 }
