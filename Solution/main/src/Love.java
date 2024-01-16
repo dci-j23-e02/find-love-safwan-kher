@@ -31,6 +31,7 @@ public class Love {
     c4 = Character.toString(stringArray[3].charAt(locations[3]));
 
     String loveName = c1+c2+c3+c4;
+    System.out.println(loveName);
     return loveName;
   }
 }
